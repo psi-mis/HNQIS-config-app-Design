@@ -1,0 +1,32 @@
+.layout_programs {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 40px auto 80px;
+    gap: 8px 8px;
+    grid-auto-flow: row dense;
+    justify-content: top;
+    align-content: top;
+    grid-template-areas:
+        "sub-bar-section"
+        "list-section"
+        "fab-section";
+    width: 100vw;
+    height: 100vh;
+    box-sizing: border-box;
+
+    .sub-bar-section {
+        grid-area: sub-bar-section;
+    }
+
+    .list-section {
+        grid-area: list-section;
+    }
+
+    .fab-section {
+        grid-area: fab-section;
+
+        .fab{
+            margin: 16px auto;
+        }
+    }
+}

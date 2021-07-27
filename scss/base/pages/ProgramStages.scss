@@ -1,0 +1,46 @@
+.layout_program_stages {
+    display: grid;
+    grid-template-columns: 70% 30%;
+    grid-template-rows: 40px auto 80px;
+    gap: 8px 8px;
+    grid-auto-flow: row dense;
+    justify-content: top;
+    align-content: top;
+    grid-template-areas:
+        "sub-bar-section survey-section"
+        "list-section survey-section"
+        "fab-section cta-section";
+    width: 100vw;
+    height: 100vh;
+    box-sizing: border-box;
+
+    .sub-bar-section {
+        grid-area: sub-bar-section;
+    }
+
+    .survey-section {
+        grid-area: survey-section;
+        background-color: cyan;
+    }
+
+    .list-section {
+        
+        grid-area: list-section;
+        background-color: cyan;
+    }
+
+    .fab-section {
+        grid-area: fab-section;
+        background-color: cyan;
+
+        .fab{
+            margin: 16px auto;
+        }
+    }
+
+    .cta-section {
+        font-size:2em;
+        grid-area: cta-section;
+        background-color: cyan;
+    }
+}
