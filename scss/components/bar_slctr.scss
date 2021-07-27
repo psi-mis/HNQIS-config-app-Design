@@ -1,5 +1,3 @@
-//@use "sass:map";
-
 .cmpt_program_bsct {
     display: grid;
     grid-template-columns: 24px calc(100% - 190px) 90px auto;
@@ -15,7 +13,6 @@
     padding: 8px;
     margin: 0 0 8px;
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
-    box-sizing: border-box;
 
     .program_bsct-icon {
         grid-area: icon;
@@ -141,7 +138,6 @@
             .menu_program-edit {
                 clear: both;
                 height: 48px;
-                box-sizing: border-box;
 
                 &:hover{
                     cursor: pointer;
@@ -151,21 +147,18 @@
                 .i-edit {
                     float: left;
                     margin: 12px 18px 12px 24px;
-                    box-sizing: border-box;
                 }
 
                 .i-text {
                     float: left;
                     line-height: 24px;
                     margin: 12px 8px 12px 0;
-                    box-sizing: border-box;
                 }
             }
 
             .menu_program-sharing {
                 clear: both;
                 height: 48px;
-                box-sizing: border-box;
 
                 &:hover{
                     cursor: pointer;
@@ -175,20 +168,17 @@
                 .i-sharing {
                     float: left;
                     margin: 12px 18px 12px 24px;
-                    box-sizing: border-box;
                 }
 
                 .i-text {
                     float: left;
                     line-height: 24px;
                     margin: 12px 8px 12px 0;
-                    box-sizing: border-box;
                 }
             }
 
             .menu_program-delete {
                 clear: both;
-                box-sizing: border-box;
                 height: 48px;
                 
                 &:hover{
@@ -199,7 +189,6 @@
                 .i-delete {
                     float: left;
                     margin: 12px 18px 12px 24px;
-                    box-sizing: border-box;
                 }
 
                 .i-text {
@@ -207,7 +196,6 @@
                     line-height: 24px;
                     color: $c_error;
                     margin: 12px 8px 12px 0;
-                    box-sizing: border-box;
                 }
             }
         }
