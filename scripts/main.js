@@ -1,23 +1,5 @@
 $(document).ready(function () {
-
-    var jqxhr = $.getJSON("data.json", function () {
-        console.log("success");
-    })
-        .done(function () {
-            console.log("second success");
-        })
-        .fail(function () {
-            console.log("error");
-        })
-        .always(function () {
-            console.log("complete");
-        });
-
-    // Set another completion function for the request above
-    jqxhr.always(function () {
-        console.log("second complete");
-    });
-
+    component_bar_slctr('program');
     //Number of service delivery points providing abortion services
     $('#nsdpras').on("click", function () {
         var v_message_title = $(this).siblings('span').text();
@@ -115,4 +97,5 @@ $(document).ready(function () {
         var valY = Y.toString() + "%";
         $("#rounding").val(valY);
     }
+
 });

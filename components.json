@@ -1,0 +1,15 @@
+[
+
+        "bat_slctr":[
+            {
+                "program":[
+                    {
+                        "icon_url": "images/i-program.svg",
+                        "color": "#FFFFFF",
+                        "bk_color": "#822BDA"
+                    }
+                ]
+            }
+        ]
+
+]
