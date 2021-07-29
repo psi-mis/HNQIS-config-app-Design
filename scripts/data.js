@@ -12,7 +12,7 @@ xhttp.onreadystatechange = function () {
             $('.list-section').append(`
                 <div class="cmpt_program_bsct">
                     <div class="program_bsct-icon">
-                        <img src="images/i-program.svg" alt="prg" />
+                        <img class="bar_slctr-img" alt="prg" />
                     </div>
                     <div class="program_bsct-title">
                         ${item.displayName} <span>(${cnt_stages}) Program stages</span>

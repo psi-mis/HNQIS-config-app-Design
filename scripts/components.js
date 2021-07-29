@@ -9,6 +9,7 @@ function component_bar_slctr(cmpnt_type) {
                 switch (cmpnt_type) {
                     case 'program':
                         console.log('case');
+                        $(".bar_slctr-img").attr("src", cmpnt_st.bar_slctr[0].prg[0].icon_url);
                         $('.cmpt_program_bsct').css({
                             'color': cmpnt_st.bar_slctr[0].prg[0].color,
                             'background-color': cmpnt_st.bar_slctr[0].prg[0].bk_color
