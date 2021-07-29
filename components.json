@@ -1,8 +1,8 @@
 [
-
-        "bat_slctr":[
+    {
+        "bar_slctr": [
             {
-                "program":[
+                "prg": [
                     {
                         "icon_url": "images/i-program.svg",
                         "color": "#FFFFFF",
@@ -11,5 +11,5 @@
                 ]
             }
         ]
-
+    }
 ]
