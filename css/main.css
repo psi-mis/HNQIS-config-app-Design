@@ -1,6 +1,26 @@
+::-webkit-scrollbar {
+  width: 3px;
+  height: 3px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #B3AFB3;
+  border-radius: 0px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #B3AFB3;
+}
+
+::-webkit-scrollbar-track {
+  background: #F0F0F0;
+  border-radius: 0px;
+  box-shadow: inset 0px 0px 0px 0px #F0F0F0;
+}
+
 .layout_programs {
   display: grid;
-  grid-template-rows: 40px auto 80px;
+  grid-template-rows: 40px calc(100vh - 136px) 80px;
   gap: 8px 8px;
   grid-auto-flow: auto;
   grid-template-areas: "sub-bar-section" "list-section" "fab-section";
@@ -11,6 +31,8 @@
   grid-area: sub-bar-section;
 }
 .layout_programs .list-section {
+  overflow-y: auto;
+  padding-right: 1px;
   grid-area: list-section;
 }
 .layout_programs .fab-section {
@@ -23,7 +45,7 @@
 .layout_program_stages {
   display: grid;
   grid-template-columns: 70% 30%;
-  grid-template-rows: 40px auto 80px;
+  grid-template-rows: 40px calc(100vh - 136px) 80px;
   gap: 8px 8px;
   grid-auto-flow: row dense;
   justify-content: top;
@@ -37,15 +59,14 @@
 }
 .layout_program_stages .survey-section {
   grid-area: survey-section;
-  background-color: cyan;
 }
 .layout_program_stages .list-section {
+  overflow-y: auto;
+  padding-right: 1px;
   grid-area: list-section;
-  background-color: cyan;
 }
 .layout_program_stages .fab-section {
   grid-area: fab-section;
-  background-color: cyan;
 }
 .layout_program_stages .fab-section .fab {
   margin: 16px auto;
@@ -53,7 +74,6 @@
 .layout_program_stages .cta-section {
   font-size: 2em;
   grid-area: cta-section;
-  background-color: cyan;
 }
 
 .cmpt_program_bsct {

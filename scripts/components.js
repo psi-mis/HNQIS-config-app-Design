@@ -16,7 +16,6 @@ function component_bar_slctr(cmpnt_type) {
                         });
                         break;
                 }
-
             }
         }
     }
