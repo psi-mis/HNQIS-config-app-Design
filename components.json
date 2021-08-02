@@ -8,6 +8,13 @@
                         "color": "#FFFFFF",
                         "bk_color": "#822BDA"
                     }
+                ],
+                "stage": [
+                    {
+                        "icon_url": "images/i-drag_white.svg",
+                        "color": "#FFFFFF",
+                        "bk_color": "#00B1BC"
+                    }
                 ]
             }
         ]
