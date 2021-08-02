@@ -1,3 +1,4 @@
+
 const xhttp = new XMLHttpRequest();
 xhttp.open('GET', 'data.json', true);
 xhttp.send();
@@ -5,22 +6,22 @@ xhttp.onreadystatechange = function () {
     if (this.readyState == 4 && this.status == 200) {
         let datos = JSON.parse(this.responseText);
         $.each(datos, function (i, item) {
+            let name = item.displayName;
 
             let stages = item.programStages;
             let cnt_stages = stages.length;
             let id = item.id;
-            console.log("w: " + item.msg_warnings.length + " e:"+ item.msg_errors.length);
-            let c_error =item.msg_errors.length;
+            let c_error = item.msg_errors.length;
             let c_warning = item.msg_warnings.length;
 
-            if(c_error == 0 & c_warning == 0) {
+            if (c_error == 0 & c_warning == 0) {
                 $('.list-section').append(`
                 <div class="cmpt_program_bsct">
                     <div class="program_bsct-icon">
                         <img class="bar_slctr-img" alt="prg" />
                     </div>
                     <div class="program_bsct-title">
-                        ${item.displayName} <span>(${cnt_stages}) Program stages</span>
+                        ${name} <span>(${cnt_stages}) Program stages</span>
                     </div>
                     <div class="program_bsct-warning_error slctr_hidden">
                         <img src="/images/i-warning.svg" alt="wrng" />
@@ -85,14 +86,14 @@ xhttp.onreadystatechange = function () {
             `);
             }
 
-            if(c_error != 0 & c_warning != 0) {
+            if (c_error != 0 & c_warning != 0) {
                 $('.list-section').append(`
                 <div class="cmpt_program_bsct">
                     <div class="program_bsct-icon">
                         <img class="bar_slctr-img" alt="prg" />
                     </div>
                     <div class="program_bsct-title">
-                        ${item.displayName} <span>(${cnt_stages}) Program stages</span>
+                        ${name} <span>(${cnt_stages}) Program stages</span>
                     </div>
                     <div class="program_bsct-warning_error">
                         <img src="/images/i-warning.svg" alt="wrng" />

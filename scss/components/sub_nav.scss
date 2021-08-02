@@ -4,8 +4,24 @@
     padding: 8px 16px;
     background-color: #D5D6D9;
 
-        .title {
-            color: #822BDA;
+    .my_path {
+        height: 24px;
+
+        div {
             line-height: 24px;
         }
+
+        .prgms_path {
+            float: left;
+            color: $c_program;
+            cursor: pointer;
+
+        }
+
+        .stages_path {
+            float: left;
+            color: #00B1BC;
+            cursor: pointer;
+        }
+    }
 }

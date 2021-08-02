@@ -260,9 +260,21 @@
   padding: 8px 16px;
   background-color: #D5D6D9;
 }
-.sub_nav .title {
-  color: #822BDA;
+.sub_nav .my_path {
+  height: 24px;
+}
+.sub_nav .my_path div {
   line-height: 24px;
+}
+.sub_nav .my_path .prgms_path {
+  float: left;
+  color: #822BDA;
+  cursor: pointer;
+}
+.sub_nav .my_path .stages_path {
+  float: left;
+  color: #00B1BC;
+  cursor: pointer;
 }
 
 .fab {
