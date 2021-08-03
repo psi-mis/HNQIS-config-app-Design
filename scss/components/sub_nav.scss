@@ -6,6 +6,8 @@
     margin-bottom:8px;
 
     .my_path {
+        font-size: 16px;
+        font-weight: 400;
         height: 24px;
 
         div {
@@ -22,6 +24,12 @@
         .stages_path {
             float: left;
             color: #00B1BC;
+            cursor: pointer;
+        }
+
+        .stage_path {
+            float: left;
+            color: #2B87DA;
             cursor: pointer;
         }
     }

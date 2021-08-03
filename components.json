@@ -6,14 +6,24 @@
                     {
                         "icon_url": "images/i-program.svg",
                         "color": "#FFFFFF",
-                        "bk_color": "#822BDA"
+                        "bk_color": "#822BDA",
+                        "icon_cta": "images/i-expand.svg"
                     }
                 ],
                 "stage": [
                     {
                         "icon_url": "images/i-drag_white.svg",
                         "color": "#FFFFFF",
-                        "bk_color": "#00B1BC"
+                        "bk_color": "#00B1BC",
+                        "icon_cta": "images/i-expand.svg"
+                    }
+                ],
+                "section": [
+                    {
+                        "icon_url": "images/i-drag_white.svg",
+                        "color": "#FFFFFF",
+                        "bk_color": "#2B87DA",
+                        "icon_cta": "images/i-expand_more_c.svg"
                     }
                 ]
             }
