@@ -3,14 +3,15 @@
 
 @import 'base/theme_default.scss';
 
-@import 'base/pages/ProgramList.scss',
-'base/pages/ProgramStages.scss';
+@import 'base/pages/prgmsStagesList.scss';
 
 
 @import 'components/bar_slctr.scss',
 'components/sub_nav.scss';
 
 @import 'components/buttons/fab.scss';
+
+@import 'components/UiPrototype/NavBarUi.scss';
 
 *{
   box-sizing: border-box;
@@ -22,6 +23,7 @@ html,
 body, .wrapper {
   width: 100vw;
   height: 100vh;
+  overflow: hidden;
 }
 
 body {

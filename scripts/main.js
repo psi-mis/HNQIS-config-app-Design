@@ -1,16 +1,11 @@
 $(document).ready(function () {
-    component_bar_slctr('program');
-
-    $(".cont_prg").on("click", function () {
-        goToURL('list_program_stages');
-    });
-
-    $(".prgms_path").on("click", function () {
-        goToURL('index');
-    });
-
-    function goToURL(myPath) {
-        console.log(myPath);
-        location.href = '../' + myPath + '.html';
-    }
+    function updatemenu() {
+        if (document.getElementById('responsive-menu').checked == true) {
+          document.getElementById('menu').style.borderBottomRightRadius = '0';
+          document.getElementById('menu').style.borderBottomLeftRadius = '0';
+        }else{
+          document.getElementById('menu').style.borderRadius = '0px';
+        }
+      }
+      component_bar_slctr('program');
 });

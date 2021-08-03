@@ -54,7 +54,7 @@ xhttp.onreadystatechange = function () {
                     </div>
                     <div class="program_bsct-cta">
                         <img src="images/i-more_vert.svg" alt="wrng" />
-                        <img class="cont_prg" src="images/i-expand.svg" alt="exp" />
+                        <img class="cont_prg" src="images/i-expand.svg" alt="exp" href="../list_program_stages.html" />
                         <div class="menu_program slctr_hidden">
                             <div class="menu_program-edit">
                                 <div class="i-edit">
@@ -126,7 +126,7 @@ xhttp.onreadystatechange = function () {
                     </div>
                     <div class="program_bsct-cta">
                         <img src="images/i-more_vert.svg" alt="wrng" />
-                        <img class="cont_prg" src="images/i-expand.svg" alt="exp" />
+                        <img class="cont_prg" src="images/i-expand.svg" alt="exp" href="../list_program_stages.html" />
                         <div class="menu_program slctr_hidden">
                             <div class="menu_program-edit">
                                 <div class="i-edit">

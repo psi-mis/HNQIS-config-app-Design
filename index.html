@@ -13,15 +13,27 @@
 </head>
 
 <body>
+  <nav id='menu'>
+    <input type='checkbox' id='responsive-menu' onclick='updatemenu()'><label></label>
+    <ul>
+      <li><a href='http://'>Components</a></li>
+      <li><a class='dropdown-arrow' href='http://'>Pages</a>
+        <ul class='sub-menus'>
+          <li><a href='http://127.0.0.1:5500/index.html'>Programs list</a></li>
+          <li><a href='http://'>Program stages list</a></li>
+        </ul>
+      </li>
+    </ul>
+  </nav>
+  <div class="sub-bar-section">
+    <div class="sub_nav">
+      <div class="my_path">
+        <div class="prgms_path">DHIS2 Config wizard</div>
+      </div>
+    </div>
+  </div>
   <div class="wrapper">
     <div class="layout_programs">
-      <div class="sub-bar-section">
-        <div class="sub_nav">
-          <div class="my_path">
-            <div class="prgms_path">DHIS2 Config wizard</div>
-          </div>
-        </div>
-      </div>
       <div class="list-section">
 
       </div>
