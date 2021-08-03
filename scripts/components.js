@@ -13,6 +13,7 @@ function component_bar_slctr(cmpnt_type) {
                             'color': cmpnt_st.bar_slctr[0].prg[0].color,
                             'background-color': cmpnt_st.bar_slctr[0].prg[0].bk_color
                         });
+                        $(".bar_slctr_cta").attr("src", cmpnt_st.bar_slctr[0].prg[0].icon_cta);
                         break;
                     case 'stage':
                         $(".bar_slctr-img").attr("src", cmpnt_st.bar_slctr[0].stage[0].icon_url);
@@ -21,6 +22,7 @@ function component_bar_slctr(cmpnt_type) {
                             'background-color': cmpnt_st.bar_slctr[0].stage[0].bk_color,
                             'corsor': 'pointer'
                         });
+                        $(".bar_slctr_cta").attr("src", cmpnt_st.bar_slctr[0].stage[0].icon_cta);
                         break;
 
                         case 'section':

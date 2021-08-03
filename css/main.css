@@ -42,7 +42,7 @@
 
 .layout_program_stage_sections {
   display: grid;
-  grid-template-columns: calc(100% - 230px) 230px;
+  grid-template-columns: calc(100% - 336px) 336px;
   grid-template-rows: calc(100vh - 176px) 80px;
   gap: 8px 8px;
   grid-auto-flow: row dense;
@@ -278,6 +278,159 @@
   float: left;
   color: #2B87DA;
   cursor: pointer;
+}
+
+.survey_obj_l1 {
+  display: grid;
+  grid-template-columns: 24px 32px calc(100% - 56px);
+  grid-template-rows: auto;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  grid-template-areas: "section-level section-drag section-text";
+}
+.survey_obj_l1 .section-level {
+  padding: 6px 0;
+  grid-area: section-level;
+}
+.survey_obj_l1 .section-drag {
+  padding: 6px 4px;
+  background: #F6F9FB;
+  border-radius: 2px 0 0 2px;
+  border-top: 0.5px solid #2E6692;
+  border-left: 0.5px solid #2E6692;
+  border-bottom: 0.5px solid #2E6692;
+  grid-area: section-drag;
+}
+.survey_obj_l1 .section-text {
+  background: #F6F9FB;
+  border-radius: 0 2px 2px 0;
+  border-top: 0.5px solid #2E6692;
+  border-right: 0.5px solid #2E6692;
+  border-bottom: 0.5px solid #2E6692;
+  grid-area: section-text;
+}
+.survey_obj_l1 .section-text div {
+  padding: 0 8px;
+  font-size: 10px;
+  width: 100%;
+}
+.survey_obj_l1 .section-text .title {
+  padding-top: 2px;
+  font-weight: 700;
+  color: #006BBD;
+}
+.survey_obj_l1 .section-text .elmnts {
+  padding-bottom: 2px;
+  color: #8D8E8F;
+}
+
+.survey_obj_l2 {
+  display: grid;
+  grid-template-columns: 48px 32px calc(100% - 80px);
+  grid-template-rows: auto;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  grid-template-areas: "section-level section-drag section-text";
+}
+.survey_obj_l2 .section-level {
+  padding: 6px 0 6px 24px;
+  grid-area: section-level;
+}
+.survey_obj_l2 .section-drag {
+  padding: 6px 4px;
+  background: #F6F9FB;
+  border-radius: 2px 0 0 2px;
+  border-top: 0.5px solid #29C4A9;
+  border-left: 0.5px solid #29C4A9;
+  border-bottom: 0.5px solid #29C4A9;
+  grid-area: section-drag;
+}
+.survey_obj_l2 .section-text {
+  background: #F6F9FB;
+  border-radius: 0 2px 2px 0;
+  border-top: 0.5px solid #29C4A9;
+  border-right: 0.5px solid #29C4A9;
+  border-bottom: 0.5px solid #29C4A9;
+  white-space: nowrap;
+  grid-area: section-text;
+}
+.survey_obj_l2 .section-text:before {
+  content: "";
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+}
+.survey_obj_l2 .section-text div {
+  padding: 0 8px;
+  font-size: 10px;
+  width: 100%;
+}
+.survey_obj_l2 .section-text .title {
+  display: inline-block;
+  vertical-align: middle;
+  white-space: normal;
+  font-weight: 700;
+  color: #29C4A9;
+}
+
+.survay_panel {
+  display: grid;
+  grid-template-columns: 48px calc(100% - 96px) 48px;
+  grid-template-rows: 40px 48px calc(100% - 88px);
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  justify-content: center;
+  align-content: start;
+  justify-items: stretch;
+  align-items: start;
+  grid-template-areas: "section-icon section-title section-title_cta" "section-search section-search section-search" "section-content-list section-content-list section-content-list";
+  width: 100%;
+  height: 100%;
+  border: 0.5px solid rgba(0, 0, 0, 0.15);
+}
+.survay_panel .section-icon {
+  background-color: #2E6692;
+  padding: 8px 8px 8px 16px;
+  grid-area: section-icon;
+}
+.survay_panel .section-title {
+  background-color: #2E6692;
+  line-height: 40px;
+  color: #fff;
+  grid-area: section-title;
+}
+.survay_panel .section-title_cta {
+  text-align: right;
+  background-color: #2E6692;
+  padding: 11px 8px !important;
+  grid-area: section-title_cta;
+}
+.survay_panel .section-search {
+  background-color: #F1F5F9;
+  grid-area: section-search;
+  padding: 8px 16px;
+  height: 48px;
+  border-bottom: 0.5px solid rgba(0, 0, 0, 0.15);
+}
+.survay_panel .section-search div {
+  width: 100%;
+  height: 100%;
+  padding-left: 8px;
+  color: #D5D6D9;
+  line-height: 28px;
+  background-color: #FAFCFF;
+  border: 0.5px solid rgba(0, 0, 0, 0.15);
+  border-radius: 15px;
+}
+.survay_panel .section-content-list {
+  height: 100%;
+  padding: 8px;
+  background-color: #F7F4FB;
+  overflow-y: auto;
+  grid-area: section-content-list;
+}
+.survay_panel .section-content-list .survey_obj_l1, .survay_panel .section-content-list .survey_obj_l2 {
+  margin-bottom: 8px;
 }
 
 .fab {
