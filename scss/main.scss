@@ -80,7 +80,7 @@ code {
 
   .rdm_left {
     float: left;
-    width: 30%;
+    width: 224px;
 
     img {
       width: 200px;
@@ -89,8 +89,13 @@ code {
   }
 
   .rdm_right {
-    padding-top: 50px;
+    float: left;
+    width: calc(100% - 224);
+    padding-top: 21px;
     font-size: xx-large;
+    h1{
+      font-size: 50%;
+    }
     a{
       text-decoration:none;
     }

@@ -642,14 +642,19 @@ code {
 }
 .rdm .rdm_left {
   float: left;
-  width: 30%;
+  width: 224px;
 }
 .rdm .rdm_left img {
   width: 200px;
 }
 .rdm .rdm_right {
-  padding-top: 50px;
+  float: left;
+  width: calc(100% - 224);
+  padding-top: 21px;
   font-size: xx-large;
+}
+.rdm .rdm_right h1 {
+  font-size: 50%;
 }
 .rdm .rdm_right a {
   text-decoration: none;
