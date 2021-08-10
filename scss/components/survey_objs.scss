@@ -1,21 +1,31 @@
+.survey_obj-i_l1 {
+    float: left;
+    width: 24px;
+    height: 24px;
+    margin: 6px 0;
+}
+
+.survey_obj-i_l2 {
+    float: left;
+    width: 24px;
+    height: 24px;
+    margin: 6px 0 6px 32px;
+}
+
 .survey_obj_l1 {
     display: grid;
-    grid-template-columns: 24px 32px calc(100% - 56px);
+    grid-template-columns: 32px calc(100% - 32px);
     grid-template-rows: auto;
     gap: 0px 0px;
     grid-auto-flow: row;
     grid-template-areas:
-        "section-level section-drag section-text";
-
-    .section-level {
-        padding: 6px 0;
-        grid-area: section-level;
-    }
+        "section-drag section-text";
+    cursor: pointer;
 
     .section-drag {
         padding: 6px 4px;
         background: #F6F9FB;
-        border-radius: 2px 0 0 2px;
+        border-radius: 6px 0 0 6px;
         border-top: 0.5px solid #2E6692;
         border-left: 0.5px solid #2E6692;
         border-bottom: 0.5px solid #2E6692;
@@ -24,7 +34,7 @@
 
     .section-text {
         background: #F6F9FB;
-        border-radius: 0 2px 2px 0;
+        border-radius: 0 6px 6px 0;
         border-top: 0.5px solid #2E6692;
         border-right: 0.5px solid #2E6692;
         border-bottom: 0.5px solid #2E6692;
@@ -51,12 +61,13 @@
 
 .survey_obj_l2 {
     display: grid;
-    grid-template-columns: 48px 32px calc(100% - 80px);
+    grid-template-columns: 32px calc(100% - 32px);
     grid-template-rows: auto;
     gap: 0px 0px;
     grid-auto-flow: row;
     grid-template-areas:
-        "section-level section-drag section-text";
+        "section-drag section-text";
+    cursor: pointer;
 
     .section-level {
         padding: 6px 0 6px 24px;
@@ -66,7 +77,7 @@
     .section-drag {
         padding: 6px 4px;
         background: #F6F9FB;
-        border-radius: 2px 0 0 2px;
+        border-radius: 6px 0 0 6px;
         border-top: 0.5px solid #29C4A9;
         border-left: 0.5px solid #29C4A9;
         border-bottom: 0.5px solid #29C4A9;
@@ -75,7 +86,7 @@
 
     .section-text {
         background: #F6F9FB;
-        border-radius: 0 2px 2px 0;
+        border-radius: 0 6px 6px 0;
         border-top: 0.5px solid #29C4A9;
         border-right: 0.5px solid #29C4A9;
         border-bottom: 0.5px solid #29C4A9;

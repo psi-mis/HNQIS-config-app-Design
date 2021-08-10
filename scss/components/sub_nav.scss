@@ -14,22 +14,9 @@
             line-height: 24px;
         }
 
-        .prgms_path {
+        .path {
             float: left;
-            color: $c_program;
-            cursor: pointer;
-
-        }
-
-        .stages_path {
-            float: left;
-            color: #00B1BC;
-            cursor: pointer;
-        }
-
-        .stage_path {
-            float: left;
-            color: #2B87DA;
+            color: #333;
             cursor: pointer;
         }
     }

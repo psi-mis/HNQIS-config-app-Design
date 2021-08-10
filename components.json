@@ -4,26 +4,26 @@
             {
                 "prg": [
                     {
-                        "icon_url": "images/i-program.svg",
-                        "color": "#FFFFFF",
-                        "bk_color": "#822BDA",
-                        "icon_cta": "images/i-expand.svg"
+                        "icon_url": "images/i-program_black.svg",
+                        "color": "#333333",
+                        "bk_color": "#37D196",
+                        "icon_cta": "images/i-expand-left_black.svg"
                     }
                 ],
                 "stage": [
                     {
-                        "icon_url": "images/i-drag_white.svg",
-                        "color": "#FFFFFF",
-                        "bk_color": "#00B1BC",
-                        "icon_cta": "images/i-expand.svg"
+                        "icon_url": "images/i-drag_black.svg",
+                        "color": "#333333",
+                        "bk_color": "#5DD9A9",
+                        "icon_cta": "images/i-expanded-bottom_black.svg"
                     }
                 ],
                 "section": [
                     {
-                        "icon_url": "images/i-drag_white.svg",
-                        "color": "#FFFFFF",
-                        "bk_color": "#2B87DA",
-                        "icon_cta": "images/i-expand_more_c.svg"
+                        "icon_url": "images/i-drag_black.svg",
+                        "color": "#333333",
+                        "bk_color": "#8EC8C8",
+                        "icon_cta": "images/i-expanded-bottom_black.svg"
                     }
                 ]
             }

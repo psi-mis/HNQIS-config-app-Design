@@ -43,15 +43,25 @@
         height: 48px;
         border-bottom: 0.5px solid rgba(0, 0, 0, 0.15);
 
-        div {
-            width: 100%;
-            height: 100%;
+        .survey-search {
+            float: left;
+            width: 220px;
             padding-left: 8px;
             color: #D5D6D9;
             line-height: 28px;
             background-color: #FAFCFF;
             border: 0.5px solid rgba(0, 0, 0, 0.15);
             border-radius: 15px;
+        }
+
+        #survey_btn-colaps_expand {
+            float: left;
+            text-align: right;
+            width: 80px;
+            height: 100%;
+            color: #2E6692;
+            padding-left: 8px;
+            line-height: 28px;
         }
     }
 
