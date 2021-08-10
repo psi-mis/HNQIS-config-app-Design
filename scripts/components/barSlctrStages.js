@@ -1,3 +1,3 @@
 $(document).ready(function () {
-      component_bar_slctr('stage');
+      components_ui('bar_slctr','stage');
 });
