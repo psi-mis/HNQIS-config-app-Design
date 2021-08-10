@@ -591,7 +591,8 @@
 }
 
 html,
-body, .wrapper {
+body,
+.wrapper {
   width: 100vw;
   height: 100vh;
   overflow: hidden;
@@ -632,6 +633,26 @@ code {
 
 .wrapper {
   padding: 0 16px !important;
+}
+
+.rdm {
+  width: 100%;
+  height: 100%;
+  padding-top: 50px;
+}
+.rdm .rdm_left {
+  float: left;
+  width: 30%;
+}
+.rdm .rdm_left img {
+  width: 200px;
+}
+.rdm .rdm_right {
+  padding-top: 50px;
+  font-size: xx-large;
+}
+.rdm .rdm_right a {
+  text-decoration: none;
 }
 
 /*# sourceMappingURL=main.css.map */
