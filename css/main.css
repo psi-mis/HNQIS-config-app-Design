@@ -464,7 +464,8 @@
   padding-left: 18px;
   border-radius: 0px;
 }
-#menu ul, #menu li {
+#menu ul,
+#menu li {
   margin: 0 auto;
   padding: 0;
   list-style: none;
@@ -472,12 +473,12 @@
 #menu ul {
   width: 100%;
 }
-#menu li {
+#menu ul li {
   float: left;
   display: inline;
   position: relative;
 }
-#menu a {
+#menu ul li a {
   display: block;
   line-height: 48px;
   padding: 0 14px;
@@ -485,11 +486,15 @@
   color: #FFFFFF;
   font-size: 16px;
 }
-#menu a.dropdown-arrow:after {
+#menu ul li a.dropdown-arrow:after {
   content: "▾";
   margin-left: 5px;
 }
-#menu li a:hover {
+#menu ul li a:hover {
+  color: #FFFFFF;
+  background: #276696;
+}
+#menu ul li .active {
   color: #FFFFFF;
   background: #276696;
 }
@@ -565,7 +570,8 @@
     float: none;
     width: auto;
   }
-  #menu input, #menu label {
+  #menu input,
+#menu label {
     position: absolute;
     top: 0;
     left: 0;
